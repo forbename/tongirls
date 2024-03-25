@@ -1196,4 +1196,4 @@ Values:
 `,M4e=ol.div`
   max-width: 900px;
   margin: 0 auto;
-`;function S4e(){const{network:e}=$F();return Kn(x4e,{children:Kn(M4e,{children:ih(ZF,{children:[ih(e8,{children:[Kn(Ore,{}),Kn(GF,{children:e?e===Vh.MAINNET?"mainnet":"testnet":"N/A"})]}),Kn(_4e,{})]})})})}const C4e="https://raw.githubusercontent.com/ton-community/tutorials/main/03-client/test/public/tonconnect-manifest.json",k4e=new LW({defaultOptions:{queries:{refetchOnWindowFocus:!1}}});o5.createRoot(document.getElementById("root")).render(Kn(Pre,{manifestUrl:C4e,children:Kn(WV,{client:k4e,children:Kn(S4e,{})})}));
+`;function S4e(){const{network:e}=$F();return Kn(x4e,{children:Kn(M4e,{children:ih(ZF,{children:[ih(e8,{children:[Kn(Ore,{}),Kn(GF,{children:e?e===Vh.MAINNET?"mainnet":"testnet":"N/A"})]}),Kn(_4e,{})]})})})}const C4e="https://forbename.github.io/tongirls/tonconnect-manifest.json",k4e=new LW({defaultOptions:{queries:{refetchOnWindowFocus:!1}}});o5.createRoot(document.getElementById("root")).render(Kn(Pre,{manifestUrl:C4e,children:Kn(WV,{client:k4e,children:Kn(S4e,{})})}));
