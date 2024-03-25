@@ -6,11 +6,9 @@
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/contracts/counter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/contracts/counter.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hooks/useCounterContract.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useCounterContract.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hooks/useTonClient.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useTonClient.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useTonConnect.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useTonConnect.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vite-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/vite-env.d.ts" afterDir="false" />
@@ -57,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711331396355</updated>
-      <workItem from="1711331397580" duration="10475000" />
+      <workItem from="1711331397580" duration="11609000" />
     </task>
     <servers />
   </component>
