@@ -1183,7 +1183,7 @@ Values:
   @media (prefers-color-scheme: dark) {
     border: 1px solid #fefefe;
   }
-`;function _4e(){const{sender:e,connected:t}=$F(),[r,n]=Ar.useState("0.01"),[o,i]=Ar.useState("0QATLTjTJn9QCgGpJAInEqbtrYqj6DllE7BxCappb4tK4PTr");return Kn(w4e,{children:ih(ZF,{children:[Kn("h3",{children:"【套餐一】0.01 TON 兑换 10次数"}),ih(e8,{children:[Kn("label",{children:"Amount "}),Kn($I,{style:{marginRight:8},type:"number",disabled:!0,value:r,onChange:l=>n(l.target.value)})]}),ih(e8,{children:[Kn("label",{children:"To "}),Kn($I,{style:{marginRight:8},value:o,disabled:!0,onChange:l=>i(l.target.value)})]}),Kn(GF,{disabled:!t,style:{marginTop:18},onClick:async()=>{e.send({to:s5.Address.parse(o),value:s5.toNano(r)})},children:"充值"})]})})}const x4e=ol.div`
+`;function _4e(){const{sender:e,connected:t}=$F(),[r,n]=Ar.useState("0.01"),[o,i]=Ar.useState("0QATLTjTJn9QCgGpJAInEqbtrYqj6DllE7BxCappb4tK4PTr");return Kn(w4e,{children:ih(ZF,{children:[Kn("h3",{children:"【套餐一】0.01 TON 兑换 10个金币"}),ih(e8,{children:[Kn("label",{children:"Amount "}),Kn($I,{style:{marginRight:8},type:"number",disabled:!0,value:r,onChange:l=>n(l.target.value)})]}),ih(e8,{children:[Kn("label",{children:"To "}),Kn($I,{style:{marginRight:8},value:o,disabled:!0,onChange:l=>i(l.target.value)})]}),Kn(GF,{disabled:!t,style:{marginTop:18},onClick:async()=>{e.send({to:s5.Address.parse(o),value:s5.toNano(r)})},children:"充值"})]})})}const x4e=ol.div`
   background-color: #e8e8e8;
   color: black;
 
