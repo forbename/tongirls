@@ -15,7 +15,7 @@ export function TransferTon2() {
   return (
     <Card>
       <FlexBoxCol>
-        <h3>【套餐一】0.01 TON 兑换 10次数</h3>
+        <h3>【套餐一】0.01 TON 兑换 10个金币</h3>
         <FlexBoxRow>
           <label>Amount </label>
           <Input
