@@ -1,0 +1,360 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    /*background: url(/images/bg.png) no-repeat;*/
+    /*background-size: 100% 100%;*/
+}
+.nav-top{
+    background: url(/images/nav-bg.png) no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 70px;
+    position: relative;
+}
+.logo{
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 70px;
+    padding-left: 15px;
+}
+.coin-body{
+    width: 100px;
+    height: 30px;
+    color: rgb(255,255,1);
+    font-size: 14px;
+    background-color: rgb(79,56,136);
+    border-radius: 15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    line-height: 30px;
+}
+.coin-icon,.coin-add{
+    width: 30px;
+}
+.coin-icon{
+    left: -5px;
+    position: absolute;
+    top: -5px;
+}
+.coin-add{
+    right: -5px;
+    position: absolute;
+    top: -2px;
+}
+.lang-body{
+    background: url(/images/lang-btn.png) no-repeat;
+    background-size: 100% 100%;
+    width: 90px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.lang-body span{
+    font-size: 13px;
+    color: #fff;
+    line-height: 30px;
+}
+.lang-btn-icon{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    width: 10px;
+}
+.bot-list{
+    width: 100%;
+    padding: 5px;
+    background: url(/images/bg.png) no-repeat;
+    background-size: 100% 100%;
+}
+.bot-item{
+    width: 49%;
+    display: inline-block;
+    position: relative;
+}
+.bot-item-img{
+    width: 100%;
+    padding: 5px;
+}
+.bot-item-img2{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    padding: 5px;
+}
+.btn-start{
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    width: 60px;
+}
+.btn-start2{
+    background: url(/images/btn-start.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    color: rgb(131,80,221);
+    margin-bottom: 0px;
+    font-size: 13px;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+}
+.btn-start2:hover{
+    text-decoration: none;
+    color: rgb(131,80,221);
+}
+.bot-item-p1{
+    position: absolute;
+    bottom: 25px;
+    left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 0px;
+}
+.bot-item-p2{
+    position: absolute;
+    bottom: 7px;
+    left: 10px;
+    font-size: 11px;
+    color: rgb(255,255,1);
+    margin-bottom: 0px;
+}
+#myModal .modal-content{
+    background: url(/images/model-bg.png) no-repeat;
+    background-size: 100% 100%;
+}
+#myModalLabel{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+#myModal .modal-content .close{
+    background: url(/images/model-close.png) no-repeat;
+    background-size: 100% 100%;
+    width: 30px;
+    height: 30px;
+    opacity:1;
+}
+.modal-header{
+    border: 0;
+    padding-bottom: 0px;
+}
+.re-coin-body{
+    background-color: rgb(125,67,152);
+    width: 70%;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+.re-coin-body-p1{
+    font-size: 14px;
+    color: #fff;
+}
+.re-coin-body-img{
+    width: 25px;
+}
+.re-coin-body .number{
+    font-size: 14px;
+    color: rgb(255,255,0);
+    min-width: 60px;
+    text-align: center;
+}
+.shop-list{
+    width: 100%;
+}
+.shop-item{
+    width: 49%;
+    margin-top: 15px;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+}
+.shop-item-img{
+    width: 100%;
+    padding: 5px;
+}
+.shop-item-p1{
+    position: absolute;
+    bottom: 40px;
+    font-size: 18px;
+    color: rgb(255,255,1);
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+.shop-item-p2{
+    background: url(/images/shop-item-p2-bg.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 75%;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+}
+.additional-body{
+    width: 80px;
+    height: 20px;
+    background-color: rgb(240,74,26);
+    border-radius:20px;
+    position: absolute;
+    top: 0px;
+    left: 5px;
+}
+.additional-body-img{
+    position: absolute;
+    right: 5px;
+    height: 20px;
+    top: 0px;
+}
+.additional-body span{
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+    line-height: 20px;
+}
+.purchase-model{
+    background: url(/images/purchase-model-bg.png) no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    min-height: 300px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1052;
+    display: none;
+}
+.purchase-model-close{
+    background: url(/images/purchase-model-close.png) no-repeat;
+    background-size: 100% 100%;
+    width: 60px;
+    height: 25px;
+    color: rgb(102,77,142);
+    font-size: 13px;
+    text-align: center;
+    line-height: 25px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.purchase-model-p1{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.gray-background{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.7;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1051;
+    display: none;
+}
+.purchase-model-price-body-coin{
+    height: 40px;
+    position: absolute;
+    left: -5px;
+    top: 0px;
+}
+.purchase-model-price-body{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 35px;
+    height: 40px;
+    background-color: rgb(113,61,143);
+    border-radius: 15px;
+    position: relative;
+}
+.purchase-model-price-body-p1{
+    font-size: 18px;
+    color: rgb(255,255,1);
+    position: absolute;
+    left: 60px;
+    line-height: 40px;
+}
+.purchase-model-price-body-p2{
+    position: absolute;
+    right: 30px;
+    line-height: 40px;
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+}
+.purchase-model-wallet{
+    background: url(/images/purchase-model-btn.png) no-repeat;
+    background-size: 100% 100%;
+    width: 70%;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 35px;
+    text-align: center;
+    position: relative;
+}
+.purchase-model-wallet-icon{
+    width: 30px;
+    position: absolute;
+    left: 30px;
+    top: 10px;
+}
+.purchase-model-wallet{
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+}
+.root{
+    background: url(/images/purchase-model-btn.png) no-repeat;
+    background-size: 100% 100%;
+    width: 70%;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+    position: relative;
+}
+#ton-connect-button{
+    margin: 0 auto;
+}
+#ton-connect-button button{
+    background:none;
+    box-shadow:none;
+    height: 50px;
+}
+#tc-widget-root *{
+    z-index: 2500;
+}
