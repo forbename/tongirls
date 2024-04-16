@@ -7,7 +7,7 @@ body{
     /*background-size: 100% 100%;*/
 }
 .nav-top{
-    background: url(/images/nav-bg.png) no-repeat;
+    background: url(../images/nav-bg.png) no-repeat;
     background-size: 100% 100%;
     width: 100%;
     height: 70px;
@@ -48,7 +48,7 @@ body{
     top: -2px;
 }
 .lang-body{
-    background: url(/images/lang-btn.png) no-repeat;
+    background: url(../images/lang-btn.png) no-repeat;
     background-size: 100% 100%;
     width: 90px;
     height: 30px;
@@ -72,7 +72,7 @@ body{
 .bot-list{
     width: 100%;
     padding: 5px;
-    background: url(/images/bg.png) no-repeat;
+    background: url(../images/bg.png) no-repeat;
     background-size: 100% 100%;
 }
 .bot-item{
@@ -98,7 +98,7 @@ body{
     width: 60px;
 }
 .btn-start2{
-    background: url(/images/btn-start.png) no-repeat;
+    background: url(../images/btn-start.png) no-repeat;
     background-size: 100% 100%;
     position: absolute;
     right: 10px;
@@ -136,7 +136,7 @@ body{
     margin-bottom: 0px;
 }
 #myModal .modal-content{
-    background: url(/images/model-bg.png) no-repeat;
+    background: url(../images/model-bg.png) no-repeat;
     background-size: 100% 100%;
 }
 #myModalLabel{
@@ -146,7 +146,7 @@ body{
     text-align: center;
 }
 #myModal .modal-content .close{
-    background: url(/images/model-close.png) no-repeat;
+    background: url(../images/model-close.png) no-repeat;
     background-size: 100% 100%;
     width: 30px;
     height: 30px;
@@ -203,7 +203,7 @@ body{
     width: 100%;
 }
 .shop-item-p2{
-    background: url(/images/shop-item-p2-bg.png) no-repeat;
+    background: url(../images/shop-item-p2-bg.png) no-repeat;
     background-size: 100% 100%;
     position: absolute;
     bottom: 15px;
@@ -240,7 +240,7 @@ body{
     line-height: 20px;
 }
 .purchase-model{
-    background: url(/images/purchase-model-bg.png) no-repeat;
+    background: url(../images/purchase-model-bg.png) no-repeat;
     background-size: 100% 100%;
     width: 100%;
     min-height: 300px;
@@ -251,7 +251,7 @@ body{
     display: none;
 }
 .purchase-model-close{
-    background: url(/images/purchase-model-close.png) no-repeat;
+    background: url(../images/purchase-model-close.png) no-repeat;
     background-size: 100% 100%;
     width: 60px;
     height: 25px;
@@ -313,7 +313,7 @@ body{
     font-weight: bold;
 }
 .purchase-model-wallet{
-    background: url(/images/purchase-model-btn.png) no-repeat;
+    background: url(../images/purchase-model-btn.png) no-repeat;
     background-size: 100% 100%;
     width: 70%;
     height: 50px;
@@ -337,7 +337,7 @@ body{
     line-height: 50px;
 }
 .root{
-    background: url(/images/purchase-model-btn.png) no-repeat;
+    background: url(../images/purchase-model-btn.png) no-repeat;
     background-size: 100% 100%;
     width: 70%;
     height: 50px;
