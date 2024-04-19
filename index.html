@@ -216,13 +216,14 @@
   }
 
   $(function(){
-    var chatid = getUrlParam('chatid');
+	var chatid = getUrlParam('chatid');
 
-
-	console.log("WebApp",window.Telegram.WebApp)
-    alert(window.Telegram.WebApp.initDataUnsafe.user.id)
-	alert(1)
-    alert(window.Telegram.WebApp)
+    if(chatid == null || chatid == undefined || chatid == "undefined" || chatid == ""){
+      chatid = window.Telegram.WebApp.initDataUnsafe.user.id
+    }
+    // console.log("WebApp",window.Telegram.WebApp)
+    // alert(window.Telegram.WebApp.initDataUnsafe.user.id)
+    // alert(window.Telegram.WebApp)
 	
     //获取用户余额
     $.ajax({
