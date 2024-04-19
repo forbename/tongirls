@@ -220,9 +220,8 @@
 
 
 	console.log("WebApp",window.Telegram.WebApp)
-    console.log("WebAppUser",window.Telegram.WebAppUser)
-    alert(window.Telegram.WebAppUser)
-	alert(window.Telegram.WebAppChat)
+    alert(window.Telegram.WebApp.initDataUnsafe.user.id)
+    alert(window.Telegram.WebApp)
 	
     //获取用户余额
     $.ajax({
