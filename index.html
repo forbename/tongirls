@@ -217,7 +217,11 @@
 
   $(function(){
 	var chatid = getUrlParam('chatid');
-
+	var show_recharge = getUrlParam('show_recharge');
+    if(show_recharge == "1"){
+        $('#myModal').modal('show')
+    }
+	
     if(chatid == null || chatid == undefined || chatid == "undefined" || chatid == ""){
       chatid = window.Telegram.WebApp.initDataUnsafe.user.id
     }
