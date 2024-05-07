@@ -57,10 +57,12 @@ body{
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
-}
-.lang-body span{
-    font-size: 13px;
+    border: 0;
     color: #fff;
+}
+.lang-body option{
+    font-size: 13px;
+    color: #000;
     line-height: 30px;
 }
 .lang-btn-icon{
