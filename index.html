@@ -10,7 +10,10 @@
     <link rel="stylesheet" href="css/index.css?v=2" >
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
 
-    <script type="module" crossorigin src="/tongirls/assets/index-c88e4fd0.js"></script>
+    <style>
+
+    </style>
+    <script type="module" crossorigin src="/tongirls/assets/index-1120bf2d.js"></script>
     <link rel="stylesheet" href="/tongirls/assets/index-b41033e1.css">
   </head>
   <body>
@@ -114,6 +117,7 @@
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
             <h4 class="modal-title" id="myModalLabel">Recharge</h4>
+            <input id="recharge-num" type="hidden" name="recharge-num" value="0">
           </div>
           <div class="modal-body">
             <div class="re-coin-body">
@@ -125,13 +129,13 @@
               <div class="shop-item">
                 <img class="shop-item-img" src="images/shop-item-a.png">
                 <p class="shop-item-p1">10 coins</p>
-                <p class="shop-item-p2">$0.99</p>
+                <p class="shop-item-p2" valuedata="0.99">$0.99</p>
               </div>
 
               <div class="shop-item">
                 <img class="shop-item-img" src="images/shop-item-a.png">
                 <p class="shop-item-p1">30 coins</p>
-                <p class="shop-item-p2">$1.99</p>
+                <p class="shop-item-p2" valuedata="1.99">$1.99</p>
                 <div class="additional-body">
                   <span>+9</span>
                   <img class="additional-body-img" src="images/coin-icon.png">
@@ -141,7 +145,7 @@
               <div class="shop-item">
                 <img class="shop-item-img" src="images/shop-item-b.png">
                 <p class="shop-item-p1">50 coins</p>
-                <p class="shop-item-p2">$2.99</p>
+                <p class="shop-item-p2" valuedata="2.99">$2.99</p>
                 <div class="additional-body">
                   <span>+19</span>
                   <img class="additional-body-img" src="images/coin-icon.png">
@@ -151,7 +155,7 @@
               <div class="shop-item">
                 <img class="shop-item-img" src="images/shop-item-b.png">
                 <p class="shop-item-p1">200 coins</p>
-                <p class="shop-item-p2">$5.99</p>
+                <p class="shop-item-p2" valuedata="5.99">$5.99</p>
                 <div class="additional-body">
                   <span>+139</span>
                   <img class="additional-body-img" src="images/coin-icon.png">
@@ -161,7 +165,7 @@
               <div class="shop-item">
                 <img class="shop-item-img" src="images/shop-item-c.png">
                 <p class="shop-item-p1">500 coins</p>
-                <p class="shop-item-p2">$9.99</p>
+                <p class="shop-item-p2" valuedata="9.99">$9.99</p>
                 <div class="additional-body">
                   <span>+399</span>
                   <img class="additional-body-img" src="images/coin-icon.png">
@@ -171,7 +175,7 @@
               <div class="shop-item">
                 <img class="shop-item-img" src="images/shop-item-c.png">
                 <p class="shop-item-p1">2000 coins</p>
-                <p class="shop-item-p2">$29.99</p>
+                <p class="shop-item-p2" valuedata="29.99">$29.99</p>
                 <div class="additional-body">
                   <span>+1697</span>
                   <img class="additional-body-img" src="images/coin-icon.png">
@@ -254,6 +258,10 @@
 
     // $('#myModal').modal('show')
 
+    setInterval(function(){
+      $("div[title='Jetton']").hide();
+    },100)
+
     $(document).on("click",".purchase-model-close",function(){
       $(".gray-background").hide();
       $(".purchase-model").hide();
@@ -262,6 +270,7 @@
     $(document).on("click",".shop-item",function(){
       var text1 = $(this).find(".shop-item-p1").text();
       var text2 = $(this).find(".shop-item-p2").text();
+      $("#recharge-num").val($(this).find(".shop-item-p2").attr("valuedata"))
       $(".purchase-model-price-body-p1").text(text1)
       $(".purchase-model-price-body-p2").text(text2)
       $(".gray-background").show();
