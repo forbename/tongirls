@@ -7,13 +7,13 @@
     <title>tongirls</title>
 
     <link rel="stylesheet" href="bootstrap-3.4.1-dist/css/bootstrap.min.css" >
-    <link rel="stylesheet" href="css/index.css?v=2" >
+    <link rel="stylesheet" href="css/index.css?v=3" >
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
 
     <style>
 
     </style>
-    <script type="module" crossorigin src="/tongirls/assets/index-118f8c70.js"></script>
+    <script type="module" crossorigin src="/tongirls/assets/index-ddd6c05e.js"></script>
     <link rel="stylesheet" href="/tongirls/assets/index-b41033e1.css">
   </head>
   <body>
@@ -234,6 +234,7 @@
     if(chatid == null || chatid == undefined || chatid == "undefined" || chatid == ""){
       chatid = window.Telegram.WebApp.initDataUnsafe.user.id
     }
+    localStorage.setItem("chatid",chatid)
     // console.log("WebApp",window.Telegram.WebApp)
     // alert(window.Telegram.WebApp.initDataUnsafe.user.id)
     // alert(window.Telegram.WebApp)
