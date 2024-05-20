@@ -94,10 +94,21 @@ body{
     padding: 5px;
 }
 .btn-start{
+    background: url(../images/btn-start.png) no-repeat;
+    background-size: 100% 100%;
     position: absolute;
     right: 10px;
     bottom: 20px;
     width: 60px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    color: rgb(131,80,221);
+    margin-bottom: 0px;
+    font-size: 13px;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
 }
 .btn-start2{
     background: url(../images/btn-start.png) no-repeat;

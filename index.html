@@ -7,7 +7,7 @@
     <title>tongirls</title>
 
     <link rel="stylesheet" href="bootstrap-3.4.1-dist/css/bootstrap.min.css" >
-    <link rel="stylesheet" href="css/index.css?v=3" >
+    <link rel="stylesheet" href="css/index.css?v=4" >
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
 
     <style>
@@ -292,13 +292,13 @@
           if(data.code == 1){
             $(".bot-list").html("")
             for(var i = 0; i < data.data.length; i++){
-              var content = '          <div class="bot-item">\n' +
+              var content = '          <a href="'+data.data[i].href+'"<div class="bot-item">\n' +
                       '            <img class="bot-item-img" src="'+data.data[i].img+'">\n' +
                       '            <img class="bot-item-img2" src="images/bot-item-img2.png">\n' +
-                      '            <a href="'+data.data[i].href+'" class="btn-start2">Start</a>\n' +
+                      '            <p class="btn-start2">Start</p>\n' +
                       '            <p class="bot-item-p1">'+data.data[i].name+'</p>\n' +
                       '            <p class="bot-item-p2">'+data.data[i].introduce+'</p>\n' +
-                      '          </div>'
+                      '          </div></a>'
               $(".bot-list").append(content)
             }
 
