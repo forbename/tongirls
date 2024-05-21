@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/tongirls/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>tongirls</title>
 
@@ -13,15 +13,13 @@
     <style>
 
     </style>
-    <script type="module" crossorigin src="/tongirls/assets/index-ddd6c05e.js"></script>
-    <link rel="stylesheet" href="/tongirls/assets/index-b41033e1.css">
   </head>
   <body>
     <div class="nav-top">
       <div class="logo">TonGirls</div>
       <div class="coin-body">
         <img class="coin-icon" src="images/coin-icon.png">
-        <img data-toggle="modal" data-target="#myModal" class="coin-add" src="/tongirls/images/coin-add.png">
+        <img data-toggle="modal" data-target="#myModal" class="coin-add" src="/images/coin-add.png">
         <span class="number">--</span>
       </div>
 <!--      <div class="lang-body">-->
@@ -29,8 +27,8 @@
 <!--        <span>English</span>-->
 <!--      </div>-->
       <select class="lang-body" name="lang">
-        <option value="en"><img class="lang-btn-icon" src="images/lang-btn-icon.png">English</option>
-        <option value="ru"><img class="lang-btn-icon" src="images/lang-btn-icon.png">Русский</option>
+        <option class="en" value="en"><img class="lang-btn-icon" src="images/lang-btn-icon.png">English</option>
+        <option class="ru" value="ru"><img class="lang-btn-icon" src="images/lang-btn-icon.png">Русский</option>
       </select>
     </div>
 
@@ -209,7 +207,7 @@
       <div class="root" id="root"></div>
     </div>
 
-    
+    <script type="module" src="/src/main.tsx"></script>
 
 
   </body>
@@ -281,6 +279,11 @@
     idolList();
     function idolList(){
       var lang = localStorage.getItem("tongirls_lang")
+      if(lang == "ru"){
+        $(".lang-body").val('ru')
+      }else{
+        $(".lang-body").val('en')
+      }
       $.ajax({
         url:'https://telegramhook.fancyai.net/api/Idol/index',
         type:'post',
